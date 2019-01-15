@@ -4,7 +4,7 @@
 $(document).ready(function() {
     var s = document.createElement("script");
     s.type = "text/javascript";
-    s.src = "https://cdn.jsdelivr.net/gh/ilgol/shopify/main.js";
+    s.src = "https://ilgol.github.io/shopify/main.css";
     $("head").append(s);
 
     $("form[action='/cart']").prepend(`
