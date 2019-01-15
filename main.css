@@ -1,18 +1,10 @@
 .fl-buttonContainer {
-  display: inline-block;
-  transition: all 0.5s ease; }
-  .fl-buttonContainer.m-loading {
-    overflow: hidden !important; }
-
-.fl-buttonContainer.submit {
-  background-color: #a90910; }
-  .fl-buttonContainer.submit .fl-button {
-    color: #ffffff; }
-
-.fl-buttonContainer.cancel {
-  background-color: #ffffff; }
-  .fl-buttonContainer.cancel .fl-button {
-    color: #a90910; }
+  background-color: #005777;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 .fl-button {
   display: flex;
@@ -21,22 +13,13 @@
   cursor: pointer;
   height: 100%;
   width: 100%;
-  position: relative; }
-
-.fl-buttonDisabled {
-  cursor: not-allowed; }
-
-.fl-buttonDisabledOverlay {
-  opacity: 0.3; }
+  position: relative;
+}
 
 .fl-buttonTextCenter {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-  line-height: normal; }
-  .fl-buttonTextCenter .button-icon {
-    padding-right: 32px; }
-
-.fl-buttonTextCenter.with-icon {
-  justify-content: flex-start; }
+  line-height: normal;
+}
