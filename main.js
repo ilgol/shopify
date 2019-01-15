@@ -10,7 +10,7 @@ $(document).ready(function() {
     $("form[action='/cart']").prepend(`
         <div class='fl-buttonContainer'>
             <div class='fl-button'>
-                <div class='fl-buttonTextCenter'></div>
+                <div class='fl-buttonTextCenter'>But with E.Box Secure</div>
             </div>
         </div>`
     );
