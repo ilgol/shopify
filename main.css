@@ -33,7 +33,15 @@
   animation-iteration-count: 1;
 }
 
-.fl-mark {
+fl-mark:after {
+  content: attr(e-box-count);
+}
+
+.fl-mark:not([e-box-count='']){
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
   border-radius: 20px;
   width: 25px;
   height: 25px;
