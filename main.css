@@ -39,6 +39,11 @@
   content: attr(e-box-count);
 }
 
+mark.fl-mark {
+ background: none;
+ color: none;
+}
+
 .fl-mark:not([e-box-count='0']){
   border-radius: 20px;
   width: 25px;
