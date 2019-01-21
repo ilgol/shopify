@@ -33,7 +33,7 @@
   animation-iteration-count: 1;
 }
 
-fl-mark:after {
+.fl-mark:after {
   content: attr(e-box-count);
 }
 
