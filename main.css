@@ -39,9 +39,8 @@
   content: attr(e-box-count);
 }
 
-mark.fl-mark {
- background: none;
- color: none;
+.fl-mark[e-box-count='0'] {
+ display: none;
 }
 
 .fl-mark:not([e-box-count='0']){
