@@ -19,6 +19,6 @@ $(document).ready(function() {
 
     $(document).ajaxSuccess(function(event, xhr, settings) {
         if(settings.type == 'GET' && settings.url == '/cart.js')
-            console.log(responseJSON.item_count);
+            console.log(xhr.responseJSON.item_count);
     });
 });
