@@ -20,6 +20,6 @@ $(document).ready(function() {
 
     $(document).ajaxSuccess(function(event, xhr, settings) {
         if(settings.type == 'GET' && settings.url == '/cart.js')
-            console.log(xhr.responseJSON.item_count);
+            console.log($(".fl-mark").attr('e-box-count', xhr.responseJSON.item_count));
     });
 });
