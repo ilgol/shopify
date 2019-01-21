@@ -11,7 +11,8 @@ $(document).ready(function() {
     $("body").prepend(`
         <div class='fl-buttonContainer'>
             <div class='fl-button'>
-                <div class='fl-buttonTextCenter'>Buy with <img src="https://ilgol.github.io/shopify/e-box.vsg"></div>
+                <div class='fl-buttonTextCenter'>Buy with</div>
+                <img src="https://ilgol.github.io/shopify/e-box.svg">
             </div>
         </div>`
     );
