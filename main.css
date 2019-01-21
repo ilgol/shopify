@@ -5,7 +5,7 @@
   border-radius: 10px;
   cursor: pointer;
   position: fixed;
-  top: 50%;
+  top: 15%;
   right: 5%;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
