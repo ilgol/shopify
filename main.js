@@ -9,7 +9,7 @@ $(document).ready(function() {
     $("head").append(link);
     
     $("body").prepend(`
-        <div class='fl-buttonContainer'>
+        <a class='fl-buttonContainer' href='/apps/test'>
             <mark class='fl-mark rubberBand' e-box-count='0'></mark>
             <div class='fl-button'>
                 <img src="https://ilgol.github.io/shopify/e-box.svg">
