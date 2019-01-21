@@ -39,7 +39,7 @@
   content: attr(e-box-count);
 }
 
-.fl-mark:not([e-box-count='']):not([e-box-count='0']){
+.fl-mark:not([e-box-count='0']){
   border-radius: 20px;
   width: 25px;
   height: 25px;

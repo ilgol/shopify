@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     $("body").prepend(`
         <div class='fl-buttonContainer'>
-            <mark class='fl-mark rubberBand' e-box-count=''></mark>
+            <mark class='fl-mark rubberBand' e-box-count='0'></mark>
             <div class='fl-button'>
                 <img src="https://ilgol.github.io/shopify/e-box.svg">
             </div>
