@@ -12,7 +12,6 @@ $(document).ready(function() {
         <div class='fl-buttonContainer'>
             <mark class='fl-mark rubberBand' e-box-count=''></mark>
             <div class='fl-button'>
-                <div class='fl-buttonTextCenter'>Buy with</div>
                 <img src="https://ilgol.github.io/shopify/e-box.svg">
             </div>
         </div>`
