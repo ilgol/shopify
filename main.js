@@ -8,10 +8,10 @@ $(document).ready(function() {
     link.rel = "stylesheet";
     $("head").append(link);
     
-    $("form[action='/cart']").prepend(`
+    $("body").prepend(`
         <div class='fl-buttonContainer'>
             <div class='fl-button'>
-                <div class='fl-buttonTextCenter'>But with E.Box Secure</div>
+                <div class='fl-buttonTextCenter'>Buy with <img src="https://ilgol.github.io/shopify/e-box.vsg"></div>
             </div>
         </div>`
     );
