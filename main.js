@@ -22,4 +22,6 @@ $(document).ready(function() {
         if(settings.type == 'GET' && settings.url == '/cart.js')
             $(".fl-mark").attr('e-box-count', xhr.responseJSON.item_count);
     });
+
+    $.getJSON('/cart.js');
 });
