@@ -20,7 +20,7 @@
   background-color: #005777a6;
 }
 
-.fl-mark.rubberBand {
+.fl-buttonContainer:hover .fl-mark.rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
   -webkit-transform-origin: center bottom;
