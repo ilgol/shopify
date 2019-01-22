@@ -1,50 +1,70 @@
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+'use strict';
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { register, unregister } from '../services/createServiceWorker';
+var _createClass2 = require('babel-runtime/helpers/createClass');
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = require('babel-runtime/helpers/inherits');
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _createServiceWorker = require('../services/createServiceWorker');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function (_Component) {
-  _inherits(App, _Component);
+  (0, _inherits3.default)(App, _Component);
 
   function App() {
-    _classCallCheck(this, App);
-
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+    (0, _classCallCheck3.default)(this, App);
+    return (0, _possibleConstructorReturn3.default)(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
   }
 
-  _createClass(App, [{
+  (0, _createClass3.default)(App, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      register();
+      (0, _createServiceWorker.register)();
     }
   }, {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
-      unregister();
+      (0, _createServiceWorker.unregister)();
     }
   }, {
     key: 'render',
     value: function render() {
-      return React.createElement(
+      return _react2.default.createElement(
         'div',
         null,
         this.props.children
       );
     }
   }]);
-
   return App;
-}(Component);
+}(_react.Component);
 
 App.propTypes = {
-  children: PropTypes.element
+  children: _propTypes2.default.element
 };
 
-export default App;
+exports.default = App;

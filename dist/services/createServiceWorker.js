@@ -1,4 +1,11 @@
-export function register() {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.register = register;
+exports.unregister = unregister;
+function register() {
   if ('serviceWorker' in navigator) window.addEventListener('load', function () {
     var swUrl = process.env.PUBLIC_URL + '/service-worker.js';
 
@@ -20,7 +27,7 @@ export function register() {
   });
 }
 
-export function unregister() {
+function unregister() {
   if ('serviceWorker' in navigator) navigator.serviceWorker.ready.then(function (registration) {
     registration.unregister();
   });
