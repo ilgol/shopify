@@ -14,5 +14,5 @@ ReactDOM.render(
       </App>
     </AppProvider>
   </Router>,
-  document.getElementById('root')
+  document.getElementById('e-box-container')
 );
