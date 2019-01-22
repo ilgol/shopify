@@ -6,13 +6,16 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ShippingInfo from './shippingInfo/ShippingInfo';
 
-ReactDOM.render(
-  <Router>
-    <AppProvider>
-      <App>
-        <Route exact path='/' component={ ShippingInfo } />
-      </App>
-    </AppProvider>
-  </Router>,
-  document.getElementById('e-box-container')
-);
+ReactDOM.render(React.createElement(
+  Router,
+  null,
+  React.createElement(
+    AppProvider,
+    null,
+    React.createElement(
+      App,
+      null,
+      React.createElement(Route, { exact: true, path: '/', component: ShippingInfo })
+    )
+  )
+), document.getElementById('e-box-container'));
