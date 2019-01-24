@@ -709,7 +709,7 @@ $(document).ready(function() {
   const link = document.createElement('link');
 
   link.type = 'text/css';
-  link.href = 'https://ilgol.github.io/shopify/main.css';
+  link.href = 'https://ilgol.github.io/shopify/Button/main.css';
   link.rel = 'stylesheet';
   $('head').append(link);
 
@@ -717,7 +717,7 @@ $(document).ready(function() {
         <a class='buttonContainer' href='/apps/e-box-secure'>
             <mark class='mark rubberBand' e-box-count='0'></mark>
             <div class='button'>
-                <img src="https://ilgol.github.io/shopify/e-box.svg">
+                <img src="https://ilgol.github.io/shopify/Button/e-box.svg">
             </div>
         </div>`
   );
