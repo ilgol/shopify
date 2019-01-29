@@ -1,4 +1,4 @@
-.buttonContainer {
+.ebox-buttonContainer {
   background-color: #005777;
   color: #fff;
   padding: 10px 15px;
@@ -19,11 +19,11 @@
   z-index: 999;
 }
 
-.buttonContainer:hover {
+.ebox-buttonContainer:hover {
   background-color: #005777a6;
 }
 
-.buttonContainer:hover .mark.rubberBand {
+.ebox-buttonContainer:hover .mark.rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
   -webkit-transform-origin: center bottom;
@@ -58,7 +58,7 @@
   font-weight: 700;
 }
 
-.button {
+.ebox-button {
   display: flex;
   align-items: center;
   width: 100%;
