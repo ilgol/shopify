@@ -1,9 +1,0 @@
-<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-    <defs>
-        <style>.cls-1{fill:#fff;}</style>
-    </defs>
-    <title>close</title>
-    <path class="cls-1"
-          d="M25.57,25l9.32-9.32a.4.4,0,0,0-.57-.57L25,24.43l-9.32-9.32a.4.4,0,0,0-.57.57L24.43,25l-9.32,9.32a.4.4,0,1,0,.57.57L25,25.57l9.32,9.32a.4.4,0,0,0,.57-.57Z"
-          transform="translate(-15 -15)"/>
-</svg>

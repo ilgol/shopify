@@ -1,1 +1,0 @@
-export const replaceIdTempalateInString = (url, id) => url.replace(/{{id}}/g, id);
