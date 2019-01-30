@@ -1,0 +1,37 @@
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes rotate {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0); }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(360deg); } }
+
+.shipping-details {
+  min-width: 900px; }
+
+.shipping-details-p {
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #323232;
+  margin: 0; }
+
+.shipping-details-block {
+  border-radius: 10px;
+  background-color: #ffffff; }

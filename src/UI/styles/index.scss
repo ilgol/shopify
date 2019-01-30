@@ -1,0 +1,15 @@
+@import 'styles/fonts.scss';
+@import 'styles/mixins.scss';
+
+.ebox-locations{
+  @extend %custom-scrollbar;
+}
+
+.ebox-buttonContainer {
+  display: none;
+}
+
+#e-box-container {
+  display: flex;
+  justify-content: center;
+}

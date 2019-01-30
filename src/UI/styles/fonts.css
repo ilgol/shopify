@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://ilgol.github.io/shopify/UI/fonts/QuicksandLight/quicksand-v7-latin-300.eot");
+  src: local("Quicksand Light"), local("Quicksand-Light"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandLight/quicksand-v7-latin-300.eot?#iefix") format("embedded-opentype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandLight/quicksand-v7-latin-300.woff2") format("woff2"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandLight/quicksand-v7-latin-300.woff") format("woff"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandLight/quicksand-v7-latin-300.ttf") format("truetype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandLight/quicksand-v7-latin-300.svg#Quicksand") format("svg"); }
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://ilgol.github.io/shopify/UI/fonts/QuicksandRegular/quicksand-v7-latin-regular.eot");
+  src: local("Quicksand Regular"), local("Quicksand-Regular"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandRegular/quicksand-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandRegular/quicksand-v7-latin-regular.woff2") format("woff2"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandRegular/quicksand-v7-latin-regular.woff") format("woff"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandRegular/quicksand-v7-latin-regular.ttf") format("truetype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandRegular/quicksand-v7-latin-regular.svg#Quicksand") format("svg"); }
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://ilgol.github.io/shopify/UI/fonts/QuicksandMedium/quicksand-v7-latin-500.eot");
+  src: local("Quicksand Medium"), local("Quicksand-Medium"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandMedium/quicksand-v7-latin-500.eot?#iefix") format("embedded-opentype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandMedium/quicksand-v7-latin-500.woff2") format("woff2"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandMedium/quicksand-v7-latin-500.woff") format("woff"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandMedium/quicksand-v7-latin-500.ttf") format("truetype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandMedium/quicksand-v7-latin-500.svg#Quicksand") format("svg"); }
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://ilgol.github.io/shopify/UI/fonts/QuicksandBold/quicksand-v7-latin-700.eot");
+  src: local("Quicksand Bold"), local("Quicksand-Bold"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandBold/quicksand-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandBold/quicksand-v7-latin-700.woff2") format("woff2"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandBold/quicksand-v7-latin-700.woff") format("woff"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandBold/quicksand-v7-latin-700.ttf") format("truetype"), url("https://ilgol.github.io/shopify/UI/fonts/QuicksandBold/quicksand-v7-latin-700.svg#Quicksand") format("svg"); }
+
+@font-face {
+  font-family: 'Tahoma-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://ilgol.github.io/shopify/UI/fonts/Tahoma/Tahoma.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Tahoma-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://ilgol.github.io/shopify/UI/fonts/Tahoma/Tahoma.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Tahoma-Regular';
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://ilgol.github.io/shopify/UI/fonts/Tahoma/Tahoma.ttf") format("truetype"); }

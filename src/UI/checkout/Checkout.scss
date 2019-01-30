@@ -1,0 +1,20 @@
+@import 'styles/mixins.scss';
+
+.shipping-details {
+  min-width: 900px;
+}
+
+.shipping-details-p {
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: $main-modal-color;
+  margin: 0;
+}
+
+.shipping-details-block {
+  border-radius: 10px;
+  background-color: $color-white;
+}

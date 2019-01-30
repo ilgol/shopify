@@ -1,0 +1,50 @@
+@import 'styles/mixins.scss';
+
+.locations-details {
+  min-width: 900px;
+}
+
+.locations-details-p {
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: $main-modal-color;
+  margin: 0;
+}
+
+.locations-details-block {
+  border-radius: 10px;
+  background-color: $color-white;
+}
+
+.submit {
+  margin-top: 25px;
+  display: flex;
+  border-radius: 10px;
+  color: $color-white;
+  background-color: $color-button-submit;
+  &:hover {
+    background-color: $color-button-hover;
+  }
+  &:active {
+    background-color: $color-button-click;
+  }
+  .fl-buttonTextCenter{
+    font-family: Quicksand !important;
+    font-size: 18px !important;
+    letter-spacing: 0.3px;
+  }
+}
+
+.template-header-container {
+  margin-bottom: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  img {
+    cursor: pointer;
+    height: 40px;     
+  }
+}

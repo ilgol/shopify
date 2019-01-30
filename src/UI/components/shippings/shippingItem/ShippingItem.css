@@ -1,0 +1,84 @@
+.shipping-item {
+  transition: opacity 0.3s; }
+  .shipping-item:hover, .shipping-item:focus {
+    opacity: 0.7; }
+  .shipping-item:active {
+    opacity: 0.6; }
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes rotate {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0); }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(360deg); } }
+
+.shipping-item {
+  background: #005777;
+  color: #ffffff;
+  padding: 15px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 0.3s; }
+  .shipping-item:first-child {
+    margin-top: 0; }
+  .shipping-item.m-active {
+    opacity: 0.6; }
+
+.shipping-item-col {
+  width: 100%;
+  position: relative;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between; }
+  .shipping-item-col:nth-child(2) {
+    width: 35%;
+    text-align: right; }
+
+.divider-left {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff; }
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/

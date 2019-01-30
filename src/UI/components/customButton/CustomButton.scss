@@ -1,0 +1,46 @@
+@import 'styles/mixins.scss';
+
+.fl-buttonContainer {
+  display: inline-block;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translateZ(0);
+  transition: all 0.5s ease;
+  &.m-loading {
+    overflow: hidden !important;
+  }
+}
+
+.fl-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.fl-buttonDisabled {
+  cursor: not-allowed;
+}
+
+.fl-buttonDisabledOverlay {
+  opacity: 0.3;
+}
+
+.fl-buttonTextCenter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  line-height: normal;
+
+  .button-icon{
+    padding-right: 32px;
+  }
+}
+
+.fl-buttonTextCenter.with-icon {
+  justify-content: flex-start;
+}

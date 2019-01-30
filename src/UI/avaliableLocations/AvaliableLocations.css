@@ -1,0 +1,61 @@
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes rotate {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0); }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(360deg); } }
+
+.locations-details {
+  min-width: 900px; }
+
+.locations-details-p {
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #323232;
+  margin: 0; }
+
+.locations-details-block {
+  border-radius: 10px;
+  background-color: #ffffff; }
+
+.submit {
+  margin-top: 25px;
+  display: flex;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #005777; }
+  .submit:hover {
+    background-color: #006b91; }
+  .submit:active {
+    background-color: #007dab; }
+  .submit .fl-buttonTextCenter {
+    font-family: Quicksand !important;
+    font-size: 18px !important;
+    letter-spacing: 0.3px; }
+
+.template-header-container {
+  margin-bottom: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between; }
+  .template-header-container img {
+    cursor: pointer;
+    height: 40px; }

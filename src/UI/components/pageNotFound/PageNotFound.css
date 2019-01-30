@@ -1,0 +1,64 @@
+.page-not-found .page-not-found-button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s; }
+  .page-not-found .page-not-found-button .fl-button {
+    padding: 0; }
+
+.page-not-found .page-not-found-button {
+  background-color: #005777;
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 18px; }
+  .page-not-found .page-not-found-button:hover, .page-not-found .page-not-found-button:focus {
+    background-color: #006b91; }
+  .page-not-found .page-not-found-button:active {
+    background-color: #007dab; }
+
+.page-not-found .page-not-found-button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; }
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes rotate {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0); }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(360deg); } }
+
+.page-not-found {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px; }
+  .page-not-found .page-not-found-buttons {
+    margin-top: 25px; }
+  .page-not-found .page-not-found-button {
+    min-width: 190px;
+    min-height: 45px;
+    margin: 15px 0 0; }
+    .page-not-found .page-not-found-button:first-child {
+      margin-top: 0; }

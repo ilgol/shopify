@@ -1,0 +1,118 @@
+.ebox-location-item {
+  transition: opacity 0.3s; }
+  .ebox-location-item:hover, .ebox-location-item:focus {
+    opacity: 0.7; }
+  .ebox-location-item:active {
+    opacity: 0.6; }
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes rotate {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0); }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(360deg); } }
+
+.ebox-location-item {
+  background: #005777;
+  color: #ffffff;
+  padding: 15px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 0.3s; }
+  .ebox-location-item:first-child {
+    margin-top: 0; }
+  .ebox-location-item.m-active {
+    opacity: 0.6; }
+
+.ebox-location-item-col {
+  width: 100%;
+  position: relative;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between; }
+  .ebox-location-item-col:nth-child(2) {
+    width: 35%;
+    text-align: right; }
+
+.divider-left,
+.divider-right {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff; }
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ebox-location-item-address {
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; } }
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .ebox-location-item-address {
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; } }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .ebox-location-item-name,
+  .divider-left {
+    display: none; }
+  .ebox-location-item-address {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; } }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .ebox-location-item-name,
+  .ebox-location-item-custom-name,
+  .divider-left,
+  .divider-right {
+    display: none; }
+  .ebox-location-item-address {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; } }
