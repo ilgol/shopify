@@ -714,7 +714,7 @@ $(document).ready(function() {
   $('head').append(link);
 
   $('body').prepend(`
-        <a class='ebox-buttonContainer' href='/apps/e-box-secure'>
+        <a class='ebox-buttonContainer' href='/apps/e-box-secure/'>
             <mark class='mark rubberBand' e-box-count='0'></mark>
             <div class='ebox-button'>
                 <img src="https://ilgol.github.io/shopify/Button/e-box.svg">
