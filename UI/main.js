@@ -8563,7 +8563,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"appHistory\", function() { return appHistory; });\n/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! history */ \"./node_modules/history/es/index.js\");\n\nvar history = Object(history__WEBPACK_IMPORTED_MODULE_0__[\"createBrowserHistory\"])();\nvar appHistory = history;\n\n//# sourceURL=webpack:///./src/UI/services/HistoryConfig.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"appHistory\", function() { return appHistory; });\n/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! history */ \"./node_modules/history/es/index.js\");\n\nvar history = Object(history__WEBPACK_IMPORTED_MODULE_0__[\"createHashHistory\"])();\nvar appHistory = history;\n\n//# sourceURL=webpack:///./src/UI/services/HistoryConfig.js?");
 
 /***/ }),
 
