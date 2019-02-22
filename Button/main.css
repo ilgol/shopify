@@ -1,7 +1,7 @@
 .ebox-buttonContainer {
   background-color: #005777;
   color: #fff;
-  padding: 10px 15px;
+  padding: 15px;
   cursor: pointer;
   position: fixed;
   top: 15%;
@@ -12,7 +12,6 @@
   -o-animation: fadein 2s; /* Opera */
   border-radius: 50%;
   box-shadow: 1px 1px 5px #808080;
-  line-height: 30px;
   text-align: center;
   z-index: 999;
 }
@@ -61,6 +60,11 @@
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.ebox-button img {
+  width: 40px;
+  height: 40px;
 }
 
 @keyframes fadein {
