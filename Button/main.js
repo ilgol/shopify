@@ -736,7 +736,7 @@ $(document).ready(function() {
         window.location.href = '/apps/e-box-secure/'
       )
       : (
-        $(this).unbind('submit').submit()
+        event.currentTarget.submit()
       );
    })
 });
