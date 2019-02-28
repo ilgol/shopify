@@ -730,13 +730,9 @@ $(document).ready(function() {
   $.getJSON('/cart.js');
 
   $('form[action="/cart"]').submit(function(event) {
-    event.preventDefault();
-    localStorage.access_token
-      ? (
-        window.location.href = '/apps/e-box-secure/'
-      )
-      : (
-        event.currentTarget.submit()
-      );
+    localStorage.access_token && (() => {
+      event.preventDefault();
+      window.location.href = '/apps/e-box-secure/';
+    })
    })
 });
