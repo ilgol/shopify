@@ -734,5 +734,5 @@ $(document).ready(function() {
       event.preventDefault();
       window.location.href = '/apps/e-box-secure/';
     })();
-   })
+   });
 });
