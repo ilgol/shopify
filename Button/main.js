@@ -733,6 +733,6 @@ $(document).ready(function() {
     localStorage.access_token && (() => {
       event.preventDefault();
       window.location.href = '/apps/e-box-secure/';
-    })
+    });
    })
 });
