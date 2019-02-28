@@ -729,7 +729,7 @@ $(document).ready(function() {
 
   $.getJSON('/cart.js');
 
-  $('#myform').submit(function(event) {
+  $('form[action="/cart"]').submit(function(event) {
     event.preventDefault();
     localStorage.access_token
       ? (
