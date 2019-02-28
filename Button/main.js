@@ -728,4 +728,15 @@ $(document).ready(function() {
   });
 
   $.getJSON('/cart.js');
+
+  $('#myform').submit(function(event) {
+    event.preventDefault();
+    localStorage.access_token
+      ? (
+        window.location.href = '/apps/e-box-secure/'
+      )
+      : (
+        $(this).unbind('submit').submit()
+      );
+   })
 });
