@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        url: ['http://rkn.gov.ru/']
+        url: ['http://www.fsb.ru/', '213.24.76.25']
     container:
       image: alpine/bombardier
 
