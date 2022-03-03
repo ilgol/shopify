@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        url: ['https://www.024.by/', 'https://abcobmen.com/', 'http://admship.ru/', 'https://baksman.org/', 'https://belinvestbank.by/individual', 'https://belmarket.by/', 'https://betatransfer.org/', 'https://bitokk.biz/', 'https://cashbank.pro/', 'https://cleanbtc.ru/', 'https://delets.cash/', 'https://iecp.ru/ep/ep-verification', 'http://www.icvibor.ru', 'https://iecp.ru/ep/uc-list', 'https://uc-osnovanie.ru/', 'http://www.nucrf.ru', 'http://www.belinfonalog.ru', 'http://www.roseltorg.ru', 'http://www.nwudc.ru', 'http://www.center-inform.ru', 'http://izhtender.ru', 'http://www.kartoteka.ru']
+        url: ['http://rkn.gov.ru/']
     container:
       image: alpine/bombardier
 
