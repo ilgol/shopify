@@ -12,10 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          repository: palahsu/DDoS-Ripper
 
       - name: Run a multi-line script
         run: |
-          IFS=':' read -r -a arr <<< ${{ matrix.site }}
-          python3 DRipper.py -s ${arr[0]} -p ${arr[1]} -t 135
+          docker run ghcr.io/arriven/db1000n
