@@ -18,4 +18,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           IFS=':' read -r -a arr <<< ${{ matrix.site }}
-          python3 DRipper.py -s ${arr[0]} -p ${arr[1]} -t 135 -q
+          python3 DRipper.py -s ${arr[0]} -p ${arr[1]} -t 135
